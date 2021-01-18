@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PlanIT]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.planit.qa.extentreport.extentReport"/>
+  </listeners>
+  <test name="Planit Test Cases(failed)">
+    <classes>
+      <class name="com.planit.qa.test.Test001">
+        <methods>
+          <include name="errormessageGone"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.planit.qa.test.Test001 -->
+    </classes>
+  </test> <!-- Planit Test Cases(failed) -->
+</suite> <!-- Failed suite [PlanIT] -->

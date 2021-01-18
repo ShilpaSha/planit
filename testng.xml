@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PlanIT">
+
+	<listeners>
+		<listener class-name="com.planit.qa.extentreport.extentReport" />
+	</listeners>
+
+
+	<test name="Planit Test Cases">
+		<classes>
+			<class name="com.planit.qa.test.Test001"></class>
+			
+            <class name="com.planit.qa.test.Test002"></class>
+            <class name="com.planit.qa.test.Test004"></class>
+		</classes>
+	</test>
+</suite>
